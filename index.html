@@ -1,17 +1,17 @@
-<html>
-	<script src="htmx.min.js"></script>
+<!DocTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+
+<script src="htmx.min.js"></script>
 	<tile></title>
 <body>
-		<pre class="center"><code><span>
-			
-	
-   ▄▄▄ ▄   ▄  ▄▄▄   ▄▄▄ ▐▌   ▐▌▗▞▀▚▖
-  ▀▄▄  █ ▄ █ █   █ █    ▐▌   ▐▌▐▛▀▀▘
-  ▄▄▄▀ █▄█▄█ ▀▄▄▄▀ █ ▗▞▀▜▌▗▞▀▜▌▝▚▄▄▖
-	  	     ▝▚▄▟▌▝▚▄▟▌     
- 
-                         
-	</span></code></pre>
+		
+	<div class ="swordde">
+	<pre class ="swordde">	
+ ▄▄▄ ▄   ▄  ▄▄▄   ▄▄▄ ▐▌   ▐▌▗▞▀▚▖
+▀▄▄  █ ▄ █ █   █ █    ▐▌   ▐▌▐▛▀▀▘
+▄▄▄▀ █▄█▄█ ▀▄▄▄▀ █ ▗▞▀▜▌▗▞▀▜▌▝▚▄▄▖
+		   ▝▚▄▟▌▝▚▄▟▌</pre></div>
 
 	<div class = 'image-container'>
 
@@ -27,13 +27,13 @@
 		<p>If you're looking for the programmer or someone cool to chat with, you have come to the right place.</p>
 	<p>Check out my cool projects below.</p>
 	</p>
-		<pre class="center"><code><span class="alt">-----------------------------------------------
-				</span></code></pre>
+	<pre class="center"><code><span class="alt">-----------------------------------------------
+		</span></code></pre>
 
 
 	</div>
 
-	</div>	<div class= "heading"><h1>Projects</h1>
+	</div>	<div class= "heading"><h1>Projects</h1></div>
 
 		<pre class="center"><code><span class="alt">-----------------------------------------------
 				</span></code></pre>
@@ -54,14 +54,13 @@
 				<div class = "box">project 1</div>
 				<div class = "box">project 2</div>
 			</div>
-		</div>
+
 		
 
 		<div class = "heading"><h1>socials</h1>		
 <pre class="center"><code><span class="alt">-----------------------------------------------
 				</span></code></pre>
 </div>
-
 
 </body>
 
@@ -84,7 +83,12 @@ margin:1em;
 
 .image{
 width:  290px;
-  margin-left: 75%;}
+padding: 2em;
+top:100em;
+margin-bottom:100px;
+
+}
+
 
 
 .boxes{
@@ -132,6 +136,56 @@ color:var(--text-color-alt);
 }
 .swords{
 margin-left:55%;
+}
+
+.swordde{
+ pading:9em;
+
+	width:20%;
+}
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .swordde {
+    font-size:80%;
+    height:120%;
+    padding:60px;
+    margin-left:-30%;
+   text-align: center;   /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .image{
+width:10%;
+  }
+
+
+
+  .p{width:50%;}
+
+.boxes{
+
+display:flex;
+flex-direction:column;
+gap:50px;
+margin:1em;
+}
+
+.box{
+
+	height:200px;
+	width:300px;
+	background-color:#21ad21;
+border-radius: 50px;
+background-repeat:no-repeat;
+text-align: center;}
+
+.swords{
+margin-left:55%;
+width:60%;
+height:50%;
+font-size:50%;
+}
+
+
+
 }
 </style>
 
