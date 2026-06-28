@@ -17,14 +17,13 @@
 
 	<div class = 'image-container'>
 
-		<img  
-
+		<image  
 
 		class = "image"
 		src="swordde.png"
 		>
 	</div>
-		<div class= 'main-content'><p>Hey!! <i><b>over here</b></i> my name's<b> Mithun</b> aka  <b>swordde</b> and you've found my website.</p>
+		<div class= 'main-content'><p>Hey!! <i><b>over here</b></i> my name's<b> Mithun</b> aka  <b>swordde</b> and you've found my website.
 		<p>ahrah!!. btw i use <b>arch </b>and <b>nvim </b>..</p>
 	<div class = 'center'>
 		<p>If you're looking for the programmer or someone cool to chat with, you have come to the right place.</p>
@@ -32,7 +31,6 @@
 	</p>
 
 	</div>
-		
 	<pre class="center"><span class="alt">-----------------------------------------------</span></pre>
 
 
@@ -44,18 +42,15 @@
 
 	
 			<div class = "boxes">
-				<div class = "box"><p class='project'>chu</p>
+				<div class = "box"><h1>chu</h1>
 						<image class ='swords'
 
-					src='gif.webp'height='370'> 
-					<div class ="repo" >	
-
+					src='gif.webp'height='370'
+					>
+					<span style="color=red;">	
 	<p>chu is audio streaming software that works on client and server which client sends the audio o/p of that device and server play it in its system..</p>
-					</div>
-
-
-					
-								</div>
+					</span>
+				</div>
 
 				<div class = "box">project 2
 	<image class ='swords'
@@ -102,17 +97,11 @@
 				--text-color-alt: #368882;
 			}
 
-.project{
-text-align:center;
 
-}
+
 .repo{
-	width:460px;
-position:absolute;
 
 color : var(--text-color-bright);
-
-z-index: 1;
 
 }
 body{
@@ -153,7 +142,7 @@ margin-top:1em;
 }
 
 .box{
-	display:flex;
+	text-color:var(--text-color-alt);
 
 	height:400px;
 	width:850px;
@@ -161,7 +150,6 @@ margin-top:1em;
 border-radius: 50px;
 background-repeat:no-repeat;
 text-align: center;
-
 
 }
 .image-container{
@@ -208,7 +196,9 @@ width:10%;
 
 
 
- .boxes{
+  .p{width:50%;}
+
+.boxes{
 
 display:flex;
 flex-direction:column;
